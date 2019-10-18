@@ -16,14 +16,15 @@ def main():
     print("")
 
     # Output
-    if useryear % 4 ==0:
-        if useryear % 100 ==0:
-            if useryear % 400 ==0:
+    if useryear % 4 == 0:
+        if useryear % 100 == 0:
+            if useryear % 400 == 0:
                 leap_year = " is"
         else:
             leap_year = " is"
 
     print(str(useryear) + leap_year + " a leap year.")
+
 
 if __name__ == "__main__":
     main()
